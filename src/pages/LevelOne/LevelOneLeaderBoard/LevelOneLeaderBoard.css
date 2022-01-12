@@ -1,0 +1,22 @@
+.level-one-leader-board-main-container{
+    background-color: #234373;
+    border: 3px solid rgba(255,255,255,0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 72px 145px rgba(6, 12, 21, .25), inset 0px -25px 25px #193052, inset 0px 25px 25px #244677;
+    height: calc(100vh - 63px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    padding-bottom: 0;
+    height: calc(100% - 63px);
+}
+
+.level-one-leader-board-main-container::-webkit-scrollbar{
+    width: 5px;
+}
+.level-one-leader-board-main-container::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #BFD6F6;
+}

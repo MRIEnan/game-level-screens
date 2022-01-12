@@ -1,0 +1,8 @@
+.level-two-main-fixed-container{
+    height: calc(100vh - 63px);
+    width: 100vw;
+    background: url('../../../images/background-images/stage-1.png');
+    position: fixed;
+    background-size: cover;
+    overflow: hidden;
+}

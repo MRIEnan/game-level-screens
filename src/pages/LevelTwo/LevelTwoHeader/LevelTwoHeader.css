@@ -1,0 +1,58 @@
+.level-two-header-main-container{
+    /* background-color: red; */
+    height: 80px;
+    /* width: 50%; */
+    /* max-width: 450px; */
+    /* min-width: 270px; */
+    width: 270px;
+    position: relative;
+    margin: auto;
+}
+
+.level-two-header-bg-one{
+    background: url('../../../images/background-images/top-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 75%;
+    position: absolute;
+    left: 32px;
+    z-index: 6;
+}
+.level-two-header-bg-two{
+    background: url('../../../images/background-images/top-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    display: grid;
+    place-items: center;
+}
+.level-two-header-bg-two h2{
+    font-size: 22px;
+    position: absolute;
+    top: -15px;
+    color: #ffffff;    
+}
+.level-two-header-bg-left{
+    background: url('../../../images/background-images/top-left-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    left: 8px;
+    z-index: 8;
+}
+.level-two-header-bg-right{
+    background: url('../../../images/background-images/top-left-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    right: -95px;
+    z-index: 8;
+}

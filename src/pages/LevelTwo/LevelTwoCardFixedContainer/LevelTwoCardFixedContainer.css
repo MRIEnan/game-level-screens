@@ -1,0 +1,37 @@
+.level-two-card-fixed-container-main-container{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.level-two-card-fixed-container-inner-container{
+    transform: translateY(-52%);
+}
+
+.btn-scroll-up-container,.btn-scroll-down-container{
+    display: grid;
+    place-items: center;
+}
+
+.btn-scroll-up{
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    border:none;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+    background: transparent;
+    transform: rotateZ(-45deg);
+}
+.btn-scroll-down{
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    border:none;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+    background: transparent;
+    transform: rotateZ(135deg);
+}
